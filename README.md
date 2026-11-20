@@ -1,5 +1,4 @@
 # Project 8.E
-&nbsp;
 
 Zac Schimpf
 
@@ -11,7 +10,6 @@ Nov 24, 2026
 
 &nbsp;
 ## Source
-&nbsp;
 
 - [Computer Science: Concepts & Explorations, 3rd ed.](https://freecsc.com/X8.html), David Reed, 2025.
 
@@ -19,7 +17,7 @@ Nov 24, 2026
 
 &nbsp;
 ## Parameters
-&nbsp;
+
 
 - [x] Name file `slots.html`
 - [x] Three horizontal slots
@@ -36,13 +34,13 @@ Nov 24, 2026
 ## Rules
 &nbsp;
 
-| Symbol | Quantity | Reward |
-| :--- | ---: | ---: |
-| Seven.png | 3 | 300 |
-| Rocket.png | 3 | 100 |
-| Pickachu.png | 3 | 15 |
-| Slowpoke.png | 3 | 15 |
-| Magnemite.png | 3 | 8 |
-| Staryu.png | 3 | 8 |
-| Cherry.png | 2 | 6 |
-| Cherry.png | 1 | 2 |
+| Symbol        | Quantity  | Matches   | Reward    |
+| :---          | ---:      | ---:      | ---:      |
+| Seven.png     | 1         | 3         | 300       |
+| Rocket.png    | 3         | 3         | 100       |
+| Pickachu.png  | 3         | 3         | 15        |
+| Slowpoke.png  | 3         | 3         | 15        |
+| Magnemite.png | 3         | 3         | 8         |
+| Staryu.png    | 4         | 3         | 8         |
+| Cherry.png    | 4         | 2         | 6         |
+| Cherry.png    | 4         | 1         | 2         |
