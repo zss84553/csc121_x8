@@ -3,40 +3,46 @@
   <head>
     <meta name="author" content="Dave Reed (Modified by Zac Schimpf)">
     <title>Celadon Game Corner</title>
+    <style>
+      body { text-align: center; }
+      table { margin: 0 auto; }
+    </style>
     <script src="https://freecsc.com/random.js"></script>
-    <script src="assets/scripts/slots.js"></script>
+    <script src="slots.js"></script>
   </head>
-
   <body>
     <h1>Celadon Game Corner</h1>
-    <table>
-      <td>
-        <tr>
+    <table border="1">
+      <tr>
+        <td>
+          <img id="slot0"
+               src="Seven.png"
+               alt="Left slot"
+               height=60
+          >
+        </td>
+        <td>
           <img id="slot1"
-              src="assets/images/Staryu.png"
-              alt="1st slot"
-              height=60
+               src="Seven.png"
+               alt="Center slot"
+               height=60
           >
-        </tr>
-        <tr>
+        </td>
+        <td>
           <img id="slot2"
-              src="assets/images/Pikachu.png"
-              alt="2nd slot"
-              height=60
+               src="Seven.png"
+               alt="Right slot"
+               height=60
           >
-        </tr>
-        <tr>
-          <img id="slot3"
-              src="assets/images/Slowpoke.png"
-              alt="3rd slot"
-              height=60
-          >
-        </tr>
-      </td>
+        </td>
+      </tr>
     </table>
+    </p>
 
-    <p id="test">Click on the button to play.</p>
+    <button id="slotButton" type="button" onclick="spin()">Spin the Slots</button>
 
-    <button type="button" onclick="Initiate()">Start</button>
+    <p id="returnMsg">Click on the button to play.</p>
+
+    <p id="tokenCount">Tokens remaining: 20</p>
   </body>
 </html>
